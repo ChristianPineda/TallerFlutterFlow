@@ -78,7 +78,7 @@ class _UsuarioWidgetState extends State<UsuarioWidget> {
             children: [
               Text(
                 FFLocalizations.of(context).getText(
-                  'su6tcjxe' /* Patient Intake form */,
+                  'su6tcjxe' /* Intake form */,
                 ),
                 style: FlutterFlowTheme.of(context).headlineMedium.override(
                       font: GoogleFonts.outfit(
