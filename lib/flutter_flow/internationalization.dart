@@ -277,8 +277,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Por favor, elija una opción del menú desplegable.',
     },
     'su6tcjxe': {
-      'en': 'Patient Intake form',
-      'es': 'Formulario de admisión de pacientes',
+      'en': 'Intake form',
+      'es': 'Formulario de admisión',
     },
     '77f72m1z': {
       'en': 'Please fill out the form below to continue.',
