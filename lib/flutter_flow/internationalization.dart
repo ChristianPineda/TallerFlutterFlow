@@ -155,8 +155,90 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Inicio',
     },
   },
+  // HomePage
+  {
+    '8m1qq8kg': {
+      'en': 'Home',
+      'es': 'Inicio',
+    },
+    '05octe83': {
+      'en': 'Page Title',
+      'es': 'Título',
+    },
+    'nin9us07': {
+      'en': 'Login',
+      'es': 'Usuario',
+    },
+    'g83kbqrv': {
+      'en': 'Home',
+      'es': 'Inicio',
+    },
+  },
+  // ListNotifications
+  {
+    'p0z50szn': {
+      'en': 'Notifications',
+      'es': '',
+    },
+    '17v9av4p': {
+      'en': 'Check-in evaluated',
+      'es': '',
+    },
+    'l6ycbdal': {
+      'en': 'Mar 8, 2022',
+      'es': '',
+    },
+    'fdflgvh0': {
+      'en': 'Check-in evaluated',
+      'es': '',
+    },
+    'bhtxsq84': {
+      'en': 'Mar 8, 2022',
+      'es': '',
+    },
+    '1cyzkxyo': {
+      'en': 'Check-in evaluated',
+      'es': '',
+    },
+    'evp4x9cq': {
+      'en': 'Mar 8, 2022',
+      'es': '',
+    },
+    'ncybjd91': {
+      'en': 'New Event added to your calendar',
+      'es': '',
+    },
+    'ffcmoo2e': {
+      'en': 'Mar 8, 2022',
+      'es': '',
+    },
+    '5m5uzajx': {
+      'en': 'Profile Modified',
+      'es': '',
+    },
+    'c84kb227': {
+      'en': 'Mar 8, 2022',
+      'es': '',
+    },
+    '8g46qzb0': {
+      'en': 'Home',
+      'es': 'Inicio',
+    },
+  },
   // Usuario
   {
+    'su6tcjxe': {
+      'en': 'Intake form',
+      'es': 'Formulario de admisión',
+    },
+    '77f72m1z': {
+      'en': 'Please fill out the form below to continue.',
+      'es': 'Por favor, rellene el formulario siguiente para continuar.',
+    },
+    '0ubvzkwz': {
+      'en': 'Home',
+      'es': 'Inicio',
+    },
     '90qspf06': {
       'en': 'Phone number',
       'es': 'Número de teléfono',
@@ -257,91 +339,52 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Please choose an option from the dropdown',
       'es': 'Por favor, elija una opción del menú desplegable.',
     },
-    'su6tcjxe': {
-      'en': 'Intake form',
-      'es': 'Formulario de admisión',
-    },
-    '77f72m1z': {
-      'en': 'Please fill out the form below to continue.',
-      'es': 'Por favor, rellene el formulario siguiente para continuar.',
-    },
-    '0ubvzkwz': {
-      'en': 'Home',
-      'es': 'Inicio',
-    },
-    'o6xm6oxk': {
+    'hm1l56s3': {
       'en': 'Home',
       'es': 'Inicio',
     },
   },
-  // HomePage
+  // Profile
   {
-    '8m1qq8kg': {
-      'en': 'Home',
-      'es': 'Inicio',
-    },
-    '05octe83': {
-      'en': 'Page Title',
-      'es': 'Título',
-    },
-    'nin9us07': {
-      'en': 'Login',
-      'es': 'Usuario',
-    },
-    'g83kbqrv': {
-      'en': 'Home',
-      'es': 'Inicio',
-    },
-  },
-  // ListNotifications
-  {
-    'p0z50szn': {
-      'en': 'Notifications',
+    'o3a21aey': {
+      'en': 'Profile',
       'es': '',
     },
-    '17v9av4p': {
-      'en': 'Check-in evaluated',
+    'vhbo6ybc': {
+      'en': 'Elaine Edwards',
       'es': '',
     },
-    'l6ycbdal': {
-      'en': 'Mar 8, 2022',
+    'lkcurcmj': {
+      'en': 'elaine.edwards@google.com',
       'es': '',
     },
-    'fdflgvh0': {
-      'en': 'Check-in evaluated',
+    '8oblg00p': {
+      'en': 'Switch to Dark Mode',
       'es': '',
     },
-    'bhtxsq84': {
-      'en': 'Mar 8, 2022',
+    '3y25u7qu': {
+      'en': 'Switch to Light Mode',
       'es': '',
     },
-    '1cyzkxyo': {
-      'en': 'Check-in evaluated',
+    '8hbxttvx': {
+      'en': 'Account Settings',
       'es': '',
     },
-    'evp4x9cq': {
-      'en': 'Mar 8, 2022',
+    'tpzesk1d': {
+      'en': 'Change Password',
       'es': '',
     },
-    'ncybjd91': {
-      'en': 'New Event added to your calendar',
+    '57rnojr9': {
+      'en': 'Edit Profile',
       'es': '',
     },
-    'ffcmoo2e': {
-      'en': 'Mar 8, 2022',
+    'gv41woav': {
+      'en': 'Log Out',
       'es': '',
     },
-    '5m5uzajx': {
-      'en': 'Profile Modified',
+    'h24xpjmc': {
+      'en': '__',
       'es': '',
-    },
-    'c84kb227': {
-      'en': 'Mar 8, 2022',
-      'es': '',
-    },
-    '8g46qzb0': {
-      'en': 'Home',
-      'es': 'Inicio',
     },
   },
   // Miscellaneous
