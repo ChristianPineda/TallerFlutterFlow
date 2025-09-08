@@ -155,7 +155,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'es': 'Inicio',
     },
     'nin9us07': {
-      'en': 'User',
+      'en': 'Login',
       'es': 'Usuario',
     },
     'g83kbqrv': {
