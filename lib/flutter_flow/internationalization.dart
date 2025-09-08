@@ -144,25 +144,6 @@ bool _isSupportedLocale(Locale locale) {
 }
 
 final kTranslationsMap = <Map<String, Map<String, String>>>[
-  // HomePage
-  {
-    '05octe83': {
-      'en': 'Page Title',
-      'es': 'Título',
-    },
-    '8m1qq8kg': {
-      'en': 'Home',
-      'es': 'Inicio',
-    },
-    'nin9us07': {
-      'en': 'Login',
-      'es': 'Usuario',
-    },
-    'g83kbqrv': {
-      'en': 'Home',
-      'es': 'Inicio',
-    },
-  },
   // Inicio
   {
     'n1r1j8vo': {
@@ -288,7 +269,77 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': 'Home',
       'es': 'Inicio',
     },
-    '2s3lir2y': {
+    'o6xm6oxk': {
+      'en': 'Home',
+      'es': 'Inicio',
+    },
+  },
+  // HomePage
+  {
+    '8m1qq8kg': {
+      'en': 'Home',
+      'es': 'Inicio',
+    },
+    '05octe83': {
+      'en': 'Page Title',
+      'es': 'Título',
+    },
+    'nin9us07': {
+      'en': 'Login',
+      'es': 'Usuario',
+    },
+    'g83kbqrv': {
+      'en': 'Home',
+      'es': 'Inicio',
+    },
+  },
+  // ListNotifications
+  {
+    'p0z50szn': {
+      'en': 'Notifications',
+      'es': '',
+    },
+    '17v9av4p': {
+      'en': 'Check-in evaluated',
+      'es': '',
+    },
+    'l6ycbdal': {
+      'en': 'Mar 8, 2022',
+      'es': '',
+    },
+    'fdflgvh0': {
+      'en': 'Check-in evaluated',
+      'es': '',
+    },
+    'bhtxsq84': {
+      'en': 'Mar 8, 2022',
+      'es': '',
+    },
+    '1cyzkxyo': {
+      'en': 'Check-in evaluated',
+      'es': '',
+    },
+    'evp4x9cq': {
+      'en': 'Mar 8, 2022',
+      'es': '',
+    },
+    'ncybjd91': {
+      'en': 'New Event added to your calendar',
+      'es': '',
+    },
+    'ffcmoo2e': {
+      'en': 'Mar 8, 2022',
+      'es': '',
+    },
+    '5m5uzajx': {
+      'en': 'Profile Modified',
+      'es': '',
+    },
+    'c84kb227': {
+      'en': 'Mar 8, 2022',
+      'es': '',
+    },
+    '8g46qzb0': {
       'en': 'Home',
       'es': 'Inicio',
     },
