@@ -1,3 +1,4 @@
+import '/auth/firebase_auth/auth_util.dart';
 import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -98,10 +99,16 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           actions: [
             FFButtonWidget(
               onPressed: () async {
-                context.pushNamed(UsuarioWidget.routeName);
+                GoRouter.of(context).prepareAuthEvent();
+                final user = await authManager.signInWithGoogle(context);
+                if (user == null) {
+                  return;
+                }
+
+                context.goNamedAuth(UsuarioWidget.routeName, context.mounted);
               },
               text: FFLocalizations.of(context).getText(
-                'nin9us07' /* User */,
+                'nin9us07' /* Login */,
               ),
               options: FFButtonOptions(
                 height: 40.0,

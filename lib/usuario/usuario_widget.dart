@@ -1184,6 +1184,14 @@ class _UsuarioWidgetState extends State<UsuarioWidget> {
                           languages: FFLocalizations.languages(),
                           onChanged: (lang) => setAppLanguage(context, lang),
                         ),
+                        Container(
+                          width: 100.0,
+                          height: 100.0,
+                          decoration: BoxDecoration(
+                            color: FlutterFlowTheme.of(context)
+                                .secondaryBackground,
+                          ),
+                        ),
                       ],
                     ),
                   ),
