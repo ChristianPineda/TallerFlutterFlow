@@ -85,11 +85,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               appStateNotifier.loggedIn ? UsuarioWidget() : HomePageWidget(),
         ),
         FFRoute(
-          name: HomePageWidget.routeName,
-          path: HomePageWidget.routePath,
-          builder: (context, params) => HomePageWidget(),
-        ),
-        FFRoute(
           name: InicioWidget.routeName,
           path: InicioWidget.routePath,
           builder: (context, params) => InicioWidget(),
@@ -98,6 +93,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: UsuarioWidget.routeName,
           path: UsuarioWidget.routePath,
           builder: (context, params) => UsuarioWidget(),
+        ),
+        FFRoute(
+          name: HomePageWidget.routeName,
+          path: HomePageWidget.routePath,
+          builder: (context, params) => HomePageWidget(),
+        ),
+        FFRoute(
+          name: ListNotificationsWidget.routeName,
+          path: ListNotificationsWidget.routePath,
+          builder: (context, params) => ListNotificationsWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
